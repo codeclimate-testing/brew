@@ -3,7 +3,7 @@
 
 Features, usage and installation instructions are [summarised on the homepage](https://brew.sh). Terminology (e.g. the difference between a Cellar, Tap, Cask and so forth) is [explained here](docs/Formula-Cookbook.md#homebrew-terminology).
 
-## Update Bug
+## Update Bug  
 If Homebrew was updated on Aug 10-11th 2016 and `brew update` always says `Already up-to-date.` you need to run:
 ```bash
 cd "$(brew --repo)" && git fetch && git reset --hard origin/master && brew update
