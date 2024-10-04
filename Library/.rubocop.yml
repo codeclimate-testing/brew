@@ -75,6 +75,7 @@ Lint/AmbiguousBlockAssociation:
 Lint/AssignmentInCondition:
   Enabled: false
 
+
 Lint/EndAlignment:
   EnforcedStyleAlignWith: variable
 
