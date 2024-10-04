@@ -16,3 +16,6 @@ module Homebrew
     exec "cat", formulae.first.path, *ARGV.options_only
   end
 end
+
+
+
